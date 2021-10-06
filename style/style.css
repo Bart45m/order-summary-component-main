@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+@media only screen and (orientation: landscape) {
+    body {
+      background: url("/images/pattern-background-desktop.svg");
+    }
+  }
+
+  @media only screen and (orientation: portrait) {
+    body {
+      background: url("/images/pattern-background-mobile.svg");
+    }
+  }
+
+  body{
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header > img {
+    width: 100%;
+}
+
+#content{
+    background-color: white;
+    text-align: center;
+    margin: 2%;
+    width: 29.65%;
+    min-width: 375px;
+}
+
+h1{
+    margin: 6%;
+}
+
+#info{
+    width: 70%;
+    margin: 3% 15% 3% 15%;
+}
+
+#annual-plan{
+    margin: 1% 15% 3% 15%;
+    padding: 2% 0% 2% 0%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+#annual-plan:hover{
+    background: rgb(241, 237, 237);
+    border-radius: 10px;
+}
+
+.annual-plan-item{
+    margin: 2%;
+}
+
+#annual-plan > a{
+    margin: 5% 0% 5% 20%;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    width: 70%;
+    padding: 2.5%;
+    margin: 1%;
+}
+
+button:hover{
+    background: rgb(59, 59, 214);
+    color: white;
+}
+
+.attribution{
+    margin: 5%;
+}
